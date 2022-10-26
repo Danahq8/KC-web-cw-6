@@ -1,6 +1,6 @@
 alert(`مرجبا بك في موقعي اللذي سيحسب درجتك`)
 let grade= prompt("اكتب درجتك بالأرقام")
-console.log ("اكتب اسم المتغير هنا ")
+console.log (grade)("اكتب اسم المتغير هنا ")
 if(grade>=90){console.log("لقد حصلت على امتياز")
 
 }
@@ -16,6 +16,6 @@ else if(grade>=60){
 else if(grade>=50){
     console.log("لقد حصت على مقبول ")
 }
-else if(grade<50){
+else (grade<50){
    console.log ("راسب")
 }
