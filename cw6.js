@@ -1,6 +1,6 @@
 alert(`مرجبا بك في موقعي اللذي سيحسب درجتك`)
 let grade= prompt("اكتب درجتك بالأرقام")
-console.log (grade)("اكتب اسم المتغير هنا ")
+console.log (grade)
 if(grade>=90){console.log("لقد حصلت على امتياز")
 
 }
